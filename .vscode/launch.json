@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run website in Chrome",
+            "program": "${workspaceFolder}/dev-server.js",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "serverReadyAction": {
+                "pattern": "Development server ready at (http://\\S+)",
+                "uriFormat": "%s",
+                "action": "debugWithChrome",
+                "webRoot": "${workspaceFolder}"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run website in Edge",
+            "program": "${workspaceFolder}/dev-server.js",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "serverReadyAction": {
+                "pattern": "Development server ready at (http://\\S+)",
+                "uriFormat": "%s",
+                "action": "debugWithEdge",
+                "webRoot": "${workspaceFolder}"
+            }
+        }
+    ]
+}
