@@ -1,0 +1,13 @@
+{
+  "name": "zuxell-technologies-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for Zuxell Technologies",
+  "scripts": {
+    "start": "node dev-server.js",
+    "check": "node --check script.js && node --check dev-server.js && node --check tests/server-smoke.js && node --check tests/browser-smoke.js",
+    "test:server": "node tests/server-smoke.js",
+    "test:browser": "node tests/browser-smoke.js",
+    "test": "npm run check && npm run test:server && npm run test:browser"
+  }
+}
