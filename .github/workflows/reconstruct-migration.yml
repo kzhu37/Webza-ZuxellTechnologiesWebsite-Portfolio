@@ -1,0 +1,42 @@
+name: Reconstruct migration assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .migration/READY
+
+permissions:
+  contents: write
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Download and verify exact source assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location 'https://raw.githubusercontent.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio-Copy/92ee63f860ebef2054b7a44519158416c51a7f7a/index.html?token=A6HQFQQTKTFG2S3BLTEPVZLKRW2BLAA' --output index.html
+          curl --fail --location 'https://raw.githubusercontent.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio-Copy/92ee63f860ebef2054b7a44519158416c51a7f7a/style.css?token=A6HQFQRDSTOELCBWJ3H7JQDKRW2BLAA' --output style.css
+          curl --fail --location 'https://raw.githubusercontent.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio-Copy/92ee63f860ebef2054b7a44519158416c51a7f7a/LOGOZuxell.png?token=A6HQFQV6SS7TZ355AMD6KBTKRW2BLAA' --output LOGOZuxell.png
+
+          test "$(git hash-object index.html)" = "128edfd225ca65e6e58e5d4583bd8dbfaf3f3b5a"
+          test "$(git hash-object style.css)" = "87a912020d8aabe0251fc60cfe315711110886d6"
+          test "$(git hash-object LOGOZuxell.png)" = "64b7a02a7df8ed49e6628bf5d39c6f7cd2e416ac"
+
+      - name: Commit reconstructed assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html style.css LOGOZuxell.png
+          git diff --cached --quiet || git commit -m "reconstruct migration assets"
+          git push origin HEAD:main
