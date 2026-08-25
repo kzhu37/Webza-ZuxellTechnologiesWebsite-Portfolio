@@ -1,0 +1,54 @@
+name: Verify migrated project
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out exact migration commit
+        uses: actions/checkout@v4
+        with:
+          ref: bdbeffba58b6fafd20df6ac5d79ef472383fad60
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore project dependencies
+        run: npm install --package-lock=false --ignore-scripts
+
+      - name: Run complete project test suite
+        run: npm test
+
+      - name: Run development server and probe migrated assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          PORT=4173 npm start >/tmp/zuxell-server.log 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          ready=0
+          for i in {1..40}; do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then
+              ready=1
+              break
+            fi
+            sleep 0.25
+          done
+          if [ "$ready" -ne 1 ]; then
+            cat /tmp/zuxell-server.log
+            exit 1
+          fi
+          curl -fsS http://127.0.0.1:4173/ >/dev/null
+          curl -fsS http://127.0.0.1:4173/style.css >/dev/null
+          curl -fsS http://127.0.0.1:4173/script.js >/dev/null
+          curl -fsS http://127.0.0.1:4173/LOGOZuxell.png >/dev/null
+          echo "Independent development-server probes passed."
