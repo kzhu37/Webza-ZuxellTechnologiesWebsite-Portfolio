@@ -1,0 +1,37 @@
+name: Portfolio CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Prepare Chrome for CI
+        run: |
+          cat > "$RUNNER_TEMP/chrome-ci" <<'EOF'
+          #!/usr/bin/env bash
+          exec /usr/bin/google-chrome --no-sandbox "$@"
+          EOF
+          chmod +x "$RUNNER_TEMP/chrome-ci"
+          echo "CHROME_PATH=$RUNNER_TEMP/chrome-ci" >> "$GITHUB_ENV"
+
+      - name: Run syntax, server, and browser smoke tests
+        run: npm test
