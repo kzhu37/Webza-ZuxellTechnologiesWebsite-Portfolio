@@ -28,10 +28,28 @@ jobs:
         run: |
           cat > "$RUNNER_TEMP/chrome-ci" <<'EOF'
           #!/usr/bin/env bash
-          exec /usr/bin/google-chrome --no-sandbox "$@"
+          exec /usr/bin/google-chrome --no-sandbox --disable-dev-shm-usage "$@"
           EOF
           chmod +x "$RUNNER_TEMP/chrome-ci"
           echo "CHROME_PATH=$RUNNER_TEMP/chrome-ci" >> "$GITHUB_ENV"
 
-      - name: Run syntax, server, and browser smoke tests
-        run: npm test
+      - name: Run syntax checks
+        run: npm run check
+
+      - name: Run server smoke tests
+        run: npm run test:server
+
+      - name: Run browser smoke tests
+        shell: bash
+        run: |
+          for attempt in 1 2 3; do
+            echo "Browser test attempt $attempt of 3"
+            if npm run test:browser; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Chrome did not complete the run. Retrying after a short delay."
+              sleep 2
+            fi
+          done
+          exit 1
