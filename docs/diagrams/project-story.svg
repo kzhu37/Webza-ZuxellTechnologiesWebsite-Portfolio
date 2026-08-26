@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Development timeline, spring 2026</title>
+  <desc id="desc">Timeline showing the Webza and Zuxell project from late February through the April 9 presentation.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b23"/>
+    </linearGradient>
+    <style>
+      .heading { font: 700 24px Arial, sans-serif; fill: #e2e8f0; }
+      .date { font: 700 13px Arial, sans-serif; fill: #6fcf63; letter-spacing: 0.8px; }
+      .label { font: 700 17px Arial, sans-serif; fill: #e2e8f0; }
+      .small { font: 400 13px Arial, sans-serif; fill: #94a3b8; }
+      .card { fill: #161b22; stroke: #2b3948; stroke-width: 2; }
+      .line { stroke: #5db8e8; stroke-width: 3; fill: none; }
+      .stem { stroke: #5db8e8; stroke-width: 2; fill: none; opacity: 0.9; }
+      .dot { fill: #6fcf63; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="24" fill="url(#bg)"/>
+  <text x="60" y="56" class="heading">Development timeline, spring 2026</text>
+
+  <path d="M120 235 H1060" class="line"/>
+
+  <circle cx="140" cy="235" r="6" class="dot"/>
+  <path d="M140 235 V194" class="stem"/>
+  <rect x="50" y="84" width="180" height="110" rx="16" class="card"/>
+  <text x="68" y="110" class="date">LATE FEBRUARY</text>
+  <text x="68" y="136" class="label">Form Webza</text>
+  <text x="68" y="160" class="small">Chose to pursue a real client</text>
+  <text x="68" y="178" class="small">instead of a fictional brief</text>
+
+  <circle cx="330" cy="235" r="6" class="dot"/>
+  <path d="M330 235 V275" class="stem"/>
+  <rect x="235" y="275" width="190" height="112" rx="16" class="card"/>
+  <text x="253" y="301" class="date">EARLY MARCH</text>
+  <text x="253" y="327" class="label">Outreach and client</text>
+  <text x="253" y="351" class="small">Contacted local businesses and</text>
+  <text x="253" y="369" class="small">eventually connected with Zuxell</text>
+
+  <circle cx="520" cy="235" r="6" class="dot"/>
+  <path d="M520 235 V194" class="stem"/>
+  <rect x="425" y="84" width="190" height="110" rx="16" class="card"/>
+  <text x="443" y="110" class="date">MARCH 9</text>
+  <text x="443" y="136" class="label">First full UI snapshot</text>
+  <text x="443" y="160" class="small">Built the first complete client</text>
+  <text x="443" y="178" class="small">site version before March Break</text>
+
+  <circle cx="710" cy="235" r="6" class="dot"/>
+  <path d="M710 235 V275" class="stem"/>
+  <rect x="615" y="275" width="190" height="112" rx="16" class="card"/>
+  <text x="633" y="301" class="date">AFTER MARCH BREAK</text>
+  <text x="633" y="327" class="label">Review and revision</text>
+  <text x="633" y="351" class="small">Clarified sections, polished the</text>
+  <text x="633" y="369" class="small">design, and built Webza's own site</text>
+
+  <circle cx="900" cy="235" r="6" class="dot"/>
+  <path d="M900 235 V194" class="stem"/>
+  <rect x="805" y="84" width="190" height="110" rx="16" class="card"/>
+  <text x="823" y="110" class="date">APRIL 4</text>
+  <text x="823" y="136" class="label">Landing-page update</text>
+  <text x="823" y="160" class="small">Refined the interface and</text>
+  <text x="823" y="178" class="small">organized the code more cleanly</text>
+
+  <circle cx="1048" cy="235" r="6" class="dot"/>
+  <path d="M1048 235 V275" class="stem"/>
+  <rect x="955" y="275" width="186" height="112" rx="16" class="card"/>
+  <text x="973" y="301" class="date">APRIL 9</text>
+  <text x="973" y="327" class="label">Presentation</text>
+  <text x="973" y="351" class="small">Presented the client project,</text>
+  <text x="973" y="369" class="small">design choices, and lessons learned</text>
+</svg>

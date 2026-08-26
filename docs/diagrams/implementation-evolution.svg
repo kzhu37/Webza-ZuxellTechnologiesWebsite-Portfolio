@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Implementation evolution</title>
+  <desc id="desc">Three-stage diagram showing the March 9 first client build, April 4 spring revision, and later public reconstruction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#07101a"/>
+      <stop offset="1" stop-color="#0d1c29"/>
+    </linearGradient>
+    <style>
+      .heading { font: 700 26px Arial, sans-serif; fill: #edf5fb; }
+      .kicker { font: 700 12px Arial, sans-serif; fill: #83d176; letter-spacing: 1.2px; }
+      .title { font: 700 19px Arial, sans-serif; fill: #edf5fb; }
+      .copy { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
+      .code { font: 700 13px monospace; fill: #6fc8f5; }
+      .card { fill: #101f2d; stroke: #2a4357; stroke-width: 2; }
+      .arrow { stroke: #6fc8f5; stroke-width: 3; fill: none; }
+      .label { font: 700 12px Arial, sans-serif; fill: #6fc8f5; }
+    </style>
+  </defs>
+  <rect width="1200" height="500" rx="26" fill="url(#bg)"/>
+  <text x="60" y="58" class="heading">Implementation evolution</text>
+  <text x="60" y="82" class="copy">Original spring source on the left, later public-release work on the right.</text>
+
+  <rect x="55" y="125" width="315" height="295" rx="20" class="card"/>
+  <text x="80" y="158" class="kicker">MARCH 9, 2026</text>
+  <text x="80" y="190" class="title">First complete client build</text>
+  <text x="80" y="225" class="code">index.html</text>
+  <text x="80" y="258" class="copy">Most structure, styling, and</text>
+  <text x="80" y="279" class="copy">interaction lived in one large file.</text>
+  <text x="80" y="318" class="copy">The team had a complete interface,</text>
+  <text x="80" y="339" class="copy">but the implementation was still</text>
+  <text x="80" y="360" class="copy">closely coupled.</text>
+  <rect x="80" y="382" width="155" height="24" rx="12" fill="#0b1724" stroke="#2a4357"/>
+  <text x="96" y="399" class="label">ORIGINAL SPRING SOURCE</text>
+
+  <path d="M390 272 H430" class="arrow"/>
+  <path d="M420 262 L432 272 L420 282" class="arrow"/>
+
+  <rect x="445" y="125" width="315" height="295" rx="20" class="card"/>
+  <text x="470" y="158" class="kicker">APRIL 4, 2026</text>
+  <text x="470" y="190" class="title">Landing and interaction revision</text>
+  <text x="470" y="225" class="code">index.html</text>
+  <text x="470" y="248" class="code">style.css</text>
+  <text x="470" y="271" class="code">script.js</text>
+  <text x="470" y="309" class="copy">Structure, styling, and interaction</text>
+  <text x="470" y="330" class="copy">were separated while the landing</text>
+  <text x="470" y="351" class="copy">experience and motion were revised.</text>
+  <rect x="470" y="382" width="155" height="24" rx="12" fill="#0b1724" stroke="#2a4357"/>
+  <text x="486" y="399" class="label">ORIGINAL SPRING SOURCE</text>
+
+  <path d="M780 272 H820" class="arrow"/>
+  <path d="M810 262 L822 272 L810 282" class="arrow"/>
+
+  <rect x="835" y="125" width="310" height="295" rx="20" class="card"/>
+  <text x="860" y="158" class="kicker">PUBLIC RELEASE</text>
+  <text x="860" y="190" class="title">Evidence-aware reconstruction</text>
+  <text x="860" y="225" class="code">client-facing copy</text>
+  <text x="860" y="248" class="code">responsive layout</text>
+  <text x="860" y="271" class="code">browser verification</text>
+  <text x="860" y="309" class="copy">Unsupported claims and excess motion</text>
+  <text x="860" y="330" class="copy">were removed. Accessibility, privacy,</text>
+  <text x="860" y="351" class="copy">and repeatable checks were improved.</text>
+  <rect x="860" y="382" width="145" height="24" rx="12" fill="#0b1724" stroke="#2a4357"/>
+  <text x="877" y="399" class="label">LATER PUBLIC WORK</text>
+</svg>
