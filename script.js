@@ -66,7 +66,7 @@
 
     window.scrollTo({ top: 0, behavior: "auto" });
     if (focusHeading && activePage) {
-      window.requestAnimationFrame(() => activePage.querySelector("h1")?.focus({ preventScroll: true }));
+      activePage.querySelector("h1")?.focus({ preventScroll: true });
     }
   }
 
