@@ -1,9 +1,11 @@
 # Webza x Zuxell Technologies
 
-**A four-person real-client web project that combined client acquisition, audience-specific design, front-end development, business thinking, iteration, and team execution for an optical engineering company.**
+**A four-person real-client web project combining client acquisition, audience-specific design, front-end development, business thinking, iteration, and team execution for an optical engineering company.**
 
 <p align="center">
   <a href="https://webza-zuxell-technologies-portfolio.vercel.app/"><strong>Live Zuxell showcase</strong></a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml"><strong>Verification workflow</strong></a>
 </p>
 
 > **Showcase note:** The live Zuxell site is a sanitized public reconstruction. Personal details, location information, and proprietary client material have been removed, and company copy is limited to information supported by the retained project materials.
@@ -26,9 +28,10 @@
 <p align="center">
   <a href="#from-idea-to-real-client">Story</a> ·
   <a href="#two-products-two-audiences">Design</a> ·
-  <a href="#feedback-to-revision">Iteration</a> ·
-  <a href="#my-contribution">Contribution</a> ·
+  <a href="#iteration-and-design-decisions">Iteration</a> ·
   <a href="#technical-evolution">Technical</a> ·
+  <a href="#what-i-would-change-next-time">Reflection</a> ·
+  <a href="#my-contribution">Contribution</a> ·
   <a href="#current-public-showcase">Showcase</a>
 </p>
 
@@ -40,7 +43,7 @@
 | **Team** | Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, Algasem Zabarah |
 | **Development** | Late February to April 9, 2026 |
 | **Client** | Zuxell Technologies |
-| **Products** | Zuxell client website and Webza agency website |
+| **Deliverables** | Zuxell client website, Webza agency website, revision cycle, final team pitch |
 | **Core stack** | HTML, CSS, JavaScript |
 | **Client brief** | Home, About Us, Expertise, Services, Contact Us |
 | **My role** | Client connection, shared implementation, business and service framing, coordination, revision, and project communication |
@@ -49,13 +52,22 @@
   <img src="docs/diagrams/project-story.svg" alt="Webza and Zuxell development timeline from late February through the April 9 final pitch" width="100%">
 </p>
 
+### What shipped
+
+The project produced more than a single website. It combined four connected outputs:
+
+1. **A client-facing Zuxell site** built around an external five-section brief and a restrained technical identity.
+2. **A separate Webza agency site** with a deliberately more promotional visual direction for a different audience.
+3. **A revision cycle** in which the first complete Zuxell build was revisited after feedback instead of being treated as finished.
+4. **A final startup-style pitch** that connected outreach, client discovery, implementation, design choices, challenges, revision, and lessons into one project story.
+
 ## From idea to real client
 
 Webza began as a small web-design agency concept. We wanted to build custom websites around the needs of individual businesses instead of creating another fictional brief where we could control every requirement ourselves.
 
 We compiled a list of local businesses, divided outreach across the team, and dealt with repeated rejections or no response. That process mattered because it forced us to treat finding the problem as part of the project rather than assuming a client would already be waiting.
 
-In early March, I connected the team with **Zuxell Technologies through my dad**. Zuxell worked in optical engineering and needed a website. The requirements note we received specified five core areas:
+In early March, I connected the team with **Zuxell Technologies through a family connection**. Zuxell worked in optical engineering and needed a website. The requirements note we received specified five core areas:
 
 ```text
 Home
@@ -85,7 +97,7 @@ Webza could be more promotional because the agency itself was the product being 
 
 That contrast became one of the clearest lessons from the project: **design should respond to audience, purpose, and context instead of applying one preferred style everywhere.**
 
-## Feedback to revision
+## Iteration and design decisions
 
 The first complete Zuxell version was built before March Break and was not treated as final. After reviewing the first version and receiving feedback, we returned to the client site, clarified sections, polished the design, and strengthened the landing-page direction.
 
@@ -97,27 +109,10 @@ The surviving source history shows the implementation changing at the same time.
 | The first client build was useful but still provisional | Return to the site after March Break and revise instead of treating the first complete version as finished | Sections became clearer and the landing-page direction was polished |
 | Zuxell and Webza served different audiences | Give each product its own visual identity and content priorities | Zuxell became restrained and technical while Webza became bolder and more promotional |
 | The early client implementation was tightly coupled | Separate structure, styling, and interaction during revision | The codebase became easier to reason about and continue refining |
-| Michael and Vladimir were unavailable for stretches after March Break | Reprioritize work and keep the client site, agency site, and pitch moving | Coordination became a practical project constraint rather than an abstract teamwork lesson |
+| Team availability shifted after March Break | Reprioritize work and keep the client site, agency site, and pitch moving | Coordination became a practical project constraint that required clearer handoffs and prioritization |
 | The agency, client, revision work, and two sites risked feeling disconnected | Rebuild the final pitch around one chronological story | The final presentation connected outreach, client work, design decisions, challenges, revision, and reflection |
 
 The detailed chronology is preserved in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
-
-## My contribution
-
-This was collaborative work, and the retained project record is much stronger at describing **areas of work** than assigning exact files to individual people. I therefore do not reconstruct module-by-module authorship after the fact.
-
-My contribution crossed both implementation and the client-facing side of the project:
-
-| Area | My contribution |
-| --- | --- |
-| **Project direction** | Helped push the group toward a real-client engagement instead of stopping at a hypothetical brief |
-| **Client acquisition** | Participated in outreach and ultimately connected the team with Zuxell Technologies through my dad |
-| **Implementation** | Worked on coding and revision alongside Michael, while Vladimir led much of the UI, design, and visual-consistency work |
-| **Business framing** | Helped shape how Webza described its services, pricing thinking, and value to a real client without treating the work as only a coding exercise |
-| **Coordination** | Helped keep the two websites and the final project story moving while teammate availability changed |
-| **Communication** | Helped shape the startup-style pitch, chronology, challenge explanations, audience contrast, and final lessons |
-
-The team's strengths overlapped. The retained notes describe **Michael and me as handling much of the coding**, **Vladimir as leading much of the interface and visual direction**, and **Algasem as more presentation-focused**, while I also carried much of the business and client framing. That division is useful context, but it is not a claim that any one person exclusively owned a specific module.
 
 ## Technical evolution
 
@@ -147,10 +142,12 @@ The current public site keeps the lightweight HTML, CSS, and JavaScript stack wh
 
 - semantic section structure and hash-based navigation;
 - responsive desktop, tablet, and mobile layouts;
-- keyboard-operable navigation with focus management;
+- keyboard-operable navigation with focus restoration and focus trapping for the mobile menu;
 - visible focus states and reduced-motion support;
-- a browser-only inquiry demonstration that validates data without transmitting it;
-- dependency-free local serving and repeatable browser smoke checks.
+- a browser-only inquiry demonstration that uses native validity checks without transmitting data;
+- dependency-free local serving and automated content, server, and browser smoke checks.
+
+The browser interaction code is intentionally small. `script.js` manages section routing, navigation state, menu accessibility, keyboard behavior, inquiry validation, and the current year without adding a framework or runtime dependency.
 
 <table>
   <tr>
@@ -163,17 +160,38 @@ The current public site keeps the lightweight HTML, CSS, and JavaScript stack wh
   </tr>
 </table>
 
+### Verification
+
+The repository runs `npm test` on pushes to `main` and on pull requests. The verification path combines syntax checks with content, server, and browser smoke tests. The content audit also rejects long dash characters across public text files so the repository stays consistent with its writing standard.
+
 ## What I would change next time
 
 **Formalize client onboarding earlier.** We had a requirements note, but a stronger engagement would define scope, content ownership, revision expectations, and a feedback schedule before development accelerated.
 
-**Make outreach more systematic.** We created a list and divided calls, but the process was improvised. A simple outreach tracker and clearer follow-up process would have made client acquisition more deliberate.
+**Define ownership and handoffs earlier.** Team availability changed during the project. Clearer responsibility boundaries, earlier check-ins, and a shared task tracker would have reduced coordination friction.
 
-**Define ownership and handoffs earlier.** When availability changed after March Break, responsibility became less predictable. Clearer ownership would have reduced coordination friction.
+**Treat outreach and documentation as part of the engineering process.** A more systematic outreach tracker, clearer revision notes, and preserved before-and-after evidence would have made both the process and the final project history easier to evaluate.
 
-**Review the story while building, not only before presenting.** The final pitch forced us to connect the agency, client, design choices, challenges, and revisions into one understandable sequence. Doing that earlier would have improved both the product process and the explanation of our decisions.
+**Shape the story while building, not only before presenting.** The final pitch forced us to connect the agency, client, design choices, challenges, and revisions into one understandable sequence. Doing that earlier would have improved both the product process and the explanation of our decisions.
 
 The biggest lesson was that software becomes more demanding when the constraints come from real people. Technical implementation still matters, but so do trust, scope, communication, audience, revision, and the ability to explain why a design decision exists.
+
+## My contribution
+
+This was collaborative work, and the retained project record is much stronger at describing **areas of work** than assigning exact files to individual people. I therefore do not reconstruct module-by-module authorship after the fact.
+
+My contribution crossed both implementation and the client-facing side of the project:
+
+| Area | My contribution |
+| --- | --- |
+| **Project direction** | Helped push the group toward a real-client engagement instead of stopping at a hypothetical brief |
+| **Client acquisition** | Participated in outreach and ultimately connected the team with Zuxell Technologies through a family connection |
+| **Implementation** | Worked on coding and revision alongside Michael, while Vladimir led much of the UI, design, and visual-consistency work |
+| **Business framing** | Helped shape how Webza described its services, pricing thinking, and value to a real client without treating the work as only a coding exercise |
+| **Coordination** | Helped keep the two websites and the final project story moving as team availability changed |
+| **Communication** | Helped shape the startup-style pitch, chronology, challenge explanations, audience contrast, and final lessons |
+
+The team's strengths overlapped. The retained notes describe **Michael and me as handling much of the coding**, **Vladimir as leading much of the interface and visual direction**, and **Algasem as concentrating more heavily on presentation work**, while I also carried much of the business and client framing. That division is useful context, but it is not a claim that any one person exclusively owned a specific module.
 
 ## Current public showcase
 
@@ -217,6 +235,7 @@ npm test
 - `script.js`: navigation, focus behavior, and inquiry validation
 - `dev-server.js`: dependency-free local server
 - `tests/`: content, server, and browser smoke checks
+- `.github/workflows/verify.yml`: automated verification on pushes and pull requests
 - `docs/DEVELOPMENT_HISTORY.md`: original project chronology and public-release boundaries
 - `docs/diagrams/`: project timeline and implementation-evolution visuals
 - `docs/assets/screenshots/`: current Zuxell captures and original Webza capture
