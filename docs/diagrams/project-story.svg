@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
   <title id="title">Development timeline, spring 2026</title>
-  <desc id="desc">Timeline showing the Webza and Zuxell project from late February through the April 9 presentation.</desc>
+  <desc id="desc">Timeline showing the Webza and Zuxell project from late February through the April 9 final pitch.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
@@ -28,7 +28,7 @@
   <path d="M140 235 V194" class="stem"/>
   <rect x="50" y="84" width="180" height="110" rx="16" class="card"/>
   <text x="68" y="110" class="date">LATE FEBRUARY</text>
-  <text x="68" y="136" class="label">Form Webza</text>
+  <text x="68" y="136" class="label">Shape Webza</text>
   <text x="68" y="160" class="small">Chose to pursue a real client</text>
   <text x="68" y="178" class="small">instead of a fictional brief</text>
 
@@ -52,7 +52,7 @@
   <path d="M710 235 V275" class="stem"/>
   <rect x="615" y="275" width="190" height="112" rx="16" class="card"/>
   <text x="633" y="301" class="date">AFTER MARCH BREAK</text>
-  <text x="633" y="327" class="label">Review and revision</text>
+  <text x="633" y="327" class="label">Feedback and revision</text>
   <text x="633" y="351" class="small">Clarified sections, polished the</text>
   <text x="633" y="369" class="small">design, and built Webza's own site</text>
 
@@ -68,7 +68,7 @@
   <path d="M1048 235 V275" class="stem"/>
   <rect x="955" y="275" width="186" height="112" rx="16" class="card"/>
   <text x="973" y="301" class="date">APRIL 9</text>
-  <text x="973" y="327" class="label">Presentation</text>
-  <text x="973" y="351" class="small">Presented the client project,</text>
-  <text x="973" y="369" class="small">design choices, and lessons learned</text>
+  <text x="973" y="327" class="label">Final pitch</text>
+  <text x="973" y="351" class="small">Connected the client work, design,</text>
+  <text x="973" y="369" class="small">challenges, revision, and lessons</text>
 </svg>
