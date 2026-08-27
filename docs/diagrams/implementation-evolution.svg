@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
-  <title id="title">Implementation evolution</title>
-  <desc id="desc">Three-stage diagram showing the March 9 first client build, April 4 spring revision, and current public reconstruction.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Source-backed implementation evolution</title>
+  <desc id="desc">Three-stage diagram showing the March 9 first client build, April 3 spring revision with exact source comparison evidence, and later public reconstruction.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#07101a"/>
@@ -8,58 +8,62 @@
     </linearGradient>
     <style>
       .heading { font: 700 26px Arial, sans-serif; fill: #edf5fb; }
+      .sub { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
       .kicker { font: 700 12px Arial, sans-serif; fill: #83d176; letter-spacing: 1.2px; }
       .title { font: 700 19px Arial, sans-serif; fill: #edf5fb; }
       .copy { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
-      .code { font: 700 13px monospace; fill: #6fc8f5; }
+      .metric { font: 700 13px Arial, sans-serif; fill: #6fc8f5; }
+      .mono { font: 700 13px monospace; fill: #edf5fb; }
       .card { fill: #101f2d; stroke: #2a4357; stroke-width: 2; }
       .arrow { stroke: #6fc8f5; stroke-width: 3; fill: none; }
-      .label { font: 700 12px Arial, sans-serif; fill: #6fc8f5; }
+      .tag { font: 700 11px Arial, sans-serif; fill: #6fc8f5; letter-spacing: 0.7px; }
+      .pill { fill: #0b1724; stroke: #2a4357; }
     </style>
   </defs>
-  <rect width="1200" height="500" rx="26" fill="url(#bg)"/>
-  <text x="60" y="58" class="heading">Implementation evolution</text>
-  <text x="60" y="82" class="copy">Original spring source on the left, later public-release work on the right.</text>
 
-  <rect x="55" y="125" width="315" height="295" rx="20" class="card"/>
+  <rect width="1200" height="520" rx="26" fill="url(#bg)"/>
+  <text x="60" y="58" class="heading">Source-backed implementation evolution</text>
+  <text x="60" y="83" class="sub">The spring revision is supported by retained Git checkpoints, not reconstructed from memory.</text>
+
+  <rect x="55" y="125" width="315" height="325" rx="20" class="card"/>
   <text x="80" y="158" class="kicker">MARCH 9, 2026</text>
   <text x="80" y="190" class="title">First complete client build</text>
-  <text x="80" y="225" class="code">index.html</text>
-  <text x="80" y="258" class="copy">Most structure, styling, and</text>
-  <text x="80" y="279" class="copy">interaction lived in one large file.</text>
-  <text x="80" y="318" class="copy">The team had a complete interface,</text>
-  <text x="80" y="339" class="copy">but the implementation was still</text>
-  <text x="80" y="360" class="copy">closely coupled.</text>
-  <rect x="80" y="382" width="155" height="24" rx="12" fill="#0b1724" stroke="#2a4357"/>
-  <text x="96" y="399" class="label">ORIGINAL SPRING SOURCE</text>
+  <text x="80" y="229" class="mono">index.html</text>
+  <text x="80" y="253" class="metric">about 87 KB</text>
+  <text x="80" y="293" class="copy">Most structure, styling, and</text>
+  <text x="80" y="314" class="copy">interaction lived together in</text>
+  <text x="80" y="335" class="copy">one large HTML file.</text>
+  <rect x="80" y="395" width="166" height="26" rx="13" class="pill"/>
+  <text x="94" y="413" class="tag">ORIGINAL SPRING SOURCE</text>
 
-  <path d="M390 272 H430" class="arrow"/>
-  <path d="M420 262 L432 272 L420 282" class="arrow"/>
+  <path d="M390 287 H430" class="arrow"/>
+  <path d="M420 277 L432 287 L420 297" class="arrow"/>
 
-  <rect x="445" y="125" width="315" height="295" rx="20" class="card"/>
-  <text x="470" y="158" class="kicker">APRIL 4, 2026</text>
-  <text x="470" y="190" class="title">Landing and interaction revision</text>
-  <text x="470" y="225" class="code">index.html</text>
-  <text x="470" y="248" class="code">style.css</text>
-  <text x="470" y="271" class="code">script.js</text>
-  <text x="470" y="309" class="copy">Structure, styling, and interaction</text>
-  <text x="470" y="330" class="copy">were separated while the landing</text>
-  <text x="470" y="351" class="copy">experience and motion were revised.</text>
-  <rect x="470" y="382" width="155" height="24" rx="12" fill="#0b1724" stroke="#2a4357"/>
-  <text x="486" y="399" class="label">ORIGINAL SPRING SOURCE</text>
+  <rect x="445" y="125" width="315" height="325" rx="20" class="card"/>
+  <text x="470" y="158" class="kicker">APRIL 3, 2026</text>
+  <text x="470" y="190" class="title">Feedback-driven revision</text>
+  <text x="470" y="227" class="mono">index.html   about 52 KB</text>
+  <text x="470" y="251" class="mono">style.css    about 49 KB</text>
+  <text x="470" y="275" class="mono">script.js    about 8 KB</text>
+  <text x="470" y="314" class="metric">1,516 HTML lines changed</text>
+  <text x="470" y="337" class="metric">911 CSS lines added</text>
+  <text x="470" y="360" class="metric">245 JS lines added</text>
+  <rect x="470" y="395" width="166" height="26" rx="13" class="pill"/>
+  <text x="484" y="413" class="tag">ORIGINAL SPRING SOURCE</text>
 
-  <path d="M780 272 H820" class="arrow"/>
-  <path d="M810 262 L822 272 L810 282" class="arrow"/>
+  <path d="M780 287 H820" class="arrow"/>
+  <path d="M810 277 L822 287 L810 297" class="arrow"/>
 
-  <rect x="835" y="125" width="310" height="295" rx="20" class="card"/>
+  <rect x="835" y="125" width="310" height="325" rx="20" class="card"/>
   <text x="860" y="158" class="kicker">CURRENT SHOWCASE</text>
-  <text x="860" y="190" class="title">Public reconstruction</text>
-  <text x="860" y="225" class="code">supported client copy</text>
-  <text x="860" y="248" class="code">responsive layout</text>
-  <text x="860" y="271" class="code">browser verification</text>
-  <text x="860" y="309" class="copy">Unsupported claims and excess motion</text>
-  <text x="860" y="330" class="copy">were removed. Accessibility, privacy,</text>
-  <text x="860" y="351" class="copy">and repeatable checks were improved.</text>
-  <rect x="860" y="382" width="145" height="24" rx="12" fill="#0b1724" stroke="#2a4357"/>
-  <text x="877" y="399" class="label">LATER PUBLIC WORK</text>
+  <text x="860" y="190" class="title">Sanitized public reconstruction</text>
+  <text x="860" y="229" class="mono">supported client copy</text>
+  <text x="860" y="253" class="mono">responsive layout</text>
+  <text x="860" y="277" class="mono">accessibility cleanup</text>
+  <text x="860" y="301" class="mono">browser verification</text>
+  <text x="860" y="340" class="copy">Unsupported claims and excess</text>
+  <text x="860" y="361" class="copy">motion were removed without</text>
+  <text x="860" y="382" class="copy">rewriting the spring history.</text>
+  <rect x="860" y="395" width="152" height="26" rx="13" class="pill"/>
+  <text x="876" y="413" class="tag">LATER PUBLIC WORK</text>
 </svg>
