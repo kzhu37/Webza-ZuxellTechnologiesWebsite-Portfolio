@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
   <title id="title">Implementation evolution</title>
-  <desc id="desc">Three-stage diagram showing the March 9 first client build, April 4 spring revision, and later public reconstruction.</desc>
+  <desc id="desc">Three-stage diagram showing the March 9 first client build, April 4 spring revision, and current public reconstruction.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#07101a"/>
@@ -52,9 +52,9 @@
   <path d="M810 262 L822 272 L810 282" class="arrow"/>
 
   <rect x="835" y="125" width="310" height="295" rx="20" class="card"/>
-  <text x="860" y="158" class="kicker">PUBLIC RELEASE</text>
-  <text x="860" y="190" class="title">Evidence-aware reconstruction</text>
-  <text x="860" y="225" class="code">client-facing copy</text>
+  <text x="860" y="158" class="kicker">CURRENT SHOWCASE</text>
+  <text x="860" y="190" class="title">Public reconstruction</text>
+  <text x="860" y="225" class="code">supported client copy</text>
   <text x="860" y="248" class="code">responsive layout</text>
   <text x="860" y="271" class="code">browser verification</text>
   <text x="860" y="309" class="copy">Unsupported claims and excess motion</text>
