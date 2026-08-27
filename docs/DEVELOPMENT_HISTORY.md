@@ -14,7 +14,7 @@ The retained project journal covers the development sequence from late February 
 - We moved from general brainstorming toward a small web-agency concept because we wanted the project to have a purpose outside the original brief.
 - Webza was framed around custom websites for businesses rather than generic templates.
 - We made a list of local businesses, divided outreach, and received repeated rejections or no response before finding a client.
-- I connected the team with Zuxell Technologies through my dad.
+- I connected the team with Zuxell Technologies through a family connection.
 - Zuxell worked in optical engineering and needed a website.
 - We built the first complete Zuxell version before March Break.
 - We wanted the client site to feel clean, precise, trustworthy, and appropriate for optical engineering.
@@ -22,12 +22,12 @@ The retained project journal covers the development sequence from late February 
 - After March Break, we returned to the client site, reviewed feedback, clarified sections, and polished design choices.
 - We developed Webza's own agency site while revising the Zuxell site.
 - The two sites were intentionally different: Zuxell was restrained and professional, while Webza could be bolder and more promotional.
-- Michael and Vladimir were unavailable for stretches after March Break, which made coordination more difficult.
+- Team availability changed after March Break, which made coordination and handoffs more important.
 - The final pitch followed the full project story: forming the agency, pursuing a client, finding Zuxell, building the first site, revising it, building Webza's own site, working through challenges, and reflecting on what we learned.
 - The presentation used a light and optics theme connected to Zuxell's field.
 - Most full-group rehearsal and final story organization happened in the last preparation days before the April 9 pitch.
 
-The retained role notes describe **Michael and Kevin as handling much of the coding**, **Vladimir as leading much of the UI, design, and visual consistency**, and **Algasem as more presentation-focused**. Kevin also handled much of the business, pricing, and client framing. These are broad areas of contribution, not a reliable file-by-file authorship record.
+The retained role notes describe **Michael and Kevin as handling much of the coding**, **Vladimir as leading much of the UI, design, and visual consistency**, and **Algasem as concentrating more heavily on presentation work**. Kevin also handled much of the business, pricing, and client framing. These are broad areas of contribution, not a reliable file-by-file authorship record.
 
 ## 2. Client requirements note
 
