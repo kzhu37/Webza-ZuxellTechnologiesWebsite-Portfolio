@@ -1,6 +1,16 @@
-# Attribution
+# Attribution and provenance
 
 This repository contains the public reconstruction and documentation for the Webza x Zuxell Technologies project.
+
+## Original spring 2026 project
+
+The original project was collaborative work by **Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, and Algasem Zabarah**.
+
+The retained project record describes Michael and Kevin as handling much of the coding, Vladimir as leading much of the UI and visual direction, and Algasem as concentrating more heavily on presentation work. Kevin also handled much of the client connection, business framing, pricing thinking, coordination, and project communication. These are broad responsibility areas, not a reconstructed file-by-file authorship claim.
+
+The original Zuxell development source remains private because it includes client material and early placeholder content. Dated checkpoints are summarized in `docs/DEVELOPMENT_HISTORY.md`.
+
+The original spring Webza agency site remains available at `https://webzacrew.netlify.app/`. It is linked as a surviving project artifact, not as evidence that every promotional statement on the original agency site became a real business outcome.
 
 ## Client identity
 
@@ -20,9 +30,9 @@ The Webza screenshot crop removes browser-edge artifacts only. It does not chang
 
 ## Documentation diagrams
 
-`docs/diagrams/project-story.svg` was created later from the original project journal, client requirements note, and source-history dates summarized in `docs/DEVELOPMENT_HISTORY.md`.
+`docs/diagrams/project-story.svg` was created later from the original project journal, client requirements note, presentation materials, and source-history dates summarized in `docs/DEVELOPMENT_HISTORY.md`.
 
-`docs/diagrams/implementation-evolution.svg` was created later from the preserved March 9 and April 4 source snapshots plus the current public implementation.
+`docs/diagrams/implementation-evolution.svg` was created later from the preserved March 9 and April 4 source checkpoints plus the current public implementation.
 
 Both diagrams are documentation created for this repository, not original spring screenshots.
 
@@ -34,8 +44,6 @@ The current Zuxell reconstruction references demonstration photography hosted by
 
 The current interface loads DM Sans and Playfair Display through Google Fonts.
 
-## Project ownership
+## Public repository history
 
-The original spring 2026 project was collaborative work by Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, and Algasem Zabarah. See `README.md` for project context and contribution details.
-
-I created this public repository later, so its Git history begins after much of the original team work. The earlier development sequence and surviving source snapshots are summarized in `docs/DEVELOPMENT_HISTORY.md`.
+This public showcase repository was created later, so its Git history begins after much of the original team work. Earlier development evidence, contribution boundaries, and the distinction between spring work and later public cleanup are documented in `docs/DEVELOPMENT_HISTORY.md`.
