@@ -8,13 +8,15 @@ This repository contains the public reconstruction and documentation for the Web
 
 ## Screenshots
 
-`docs/assets/screenshots/home-desktop.png` is a preserved capture of an earlier public Zuxell reconstruction, before the latest cleanup.
+`docs/assets/screenshots/zuxell-home-current.png` is a current capture of the sanitized Zuxell Technologies public reconstruction.
 
-`docs/assets/screenshots/services-mobile.png` and `docs/assets/screenshots/contact-mobile.png` are preserved mobile captures from that earlier public reconstruction.
+`docs/assets/screenshots/zuxell-services-current-mobile.png` and `docs/assets/screenshots/zuxell-contact-current-mobile.png` are current mobile captures of that reconstruction.
 
 `docs/assets/screenshots/webza-home.png` is a cropped capture of the Webza agency website from the original spring 2026 project materials. It shows the second product and the intentionally different visual identity used for Webza.
 
 The Webza screenshot crop removes browser-edge artifacts only. It does not change the website content shown in the capture.
+
+`docs/assets/social-preview.png` is a later showcase graphic created from the current Zuxell reconstruction and the original Webza screenshot.
 
 ## Documentation diagrams
 
