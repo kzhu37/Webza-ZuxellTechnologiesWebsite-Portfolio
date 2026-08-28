@@ -22,16 +22,16 @@
       <img src="docs/assets/screenshots/webza-home.png" alt="Original Spring 2026 Webza agency website homepage">
     </td>
     <td width="50%">
-      <img src="docs/assets/screenshots/zuxell-home-current.png" alt="Earlier Zuxell Technologies public reconstruction homepage">
+      <img src="docs/assets/screenshots/zuxell-home-current.png" alt="Zuxell Technologies client site recreation homepage">
     </td>
   </tr>
   <tr>
     <td align="center"><sub><strong>Original Spring Webza:</strong> expressive agency storefront built to present our web-design service.</sub></td>
-    <td align="center"><sub><strong>Earlier Zuxell reconstruction:</strong> the restrained client-facing visual direction used in the earlier portfolio version. It is not presented as an untouched Spring screenshot.</sub></td>
+    <td align="center"><sub><strong>Zuxell client site:</strong> a later public recreation of the restrained, technical design created for the client.</sub></td>
   </tr>
 </table>
 
-> **Evidence note:** The original Webza deployment and dated Zuxell source checkpoints survive. No untouched Spring Zuxell screenshot does, so the public Zuxell demo is clearly separated from the original historical evidence.
+> **About these visuals:** The Webza image shows the original Spring 2026 site. The Zuxell image shows a later public recreation of the client-facing design, with private client material removed.
 
 <p align="center">
   <a href="docs/ORIGINAL_TECHNICAL_EVIDENCE.md"><strong>Original Zuxell Technical Evidence</strong></a>
