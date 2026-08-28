@@ -1,41 +1,55 @@
-# Attribution
+# Attribution and provenance
 
-This repository contains the public reconstruction and documentation for the Webza x Zuxell Technologies project.
+This repository documents the Webza x Zuxell Technologies project and includes a later sanitized public reconstruction. Original Spring 2026 evidence and later showcase work are identified separately so the project chronology remains clear.
 
-## Client identity
+## Original Spring 2026 project
+
+The original project was collaborative work by **Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, and Algasem Zabarah**.
+
+The retained project record describes Michael and Kevin as handling much of the coding, Vladimir as leading much of the UI and visual direction, and Algasem as concentrating more heavily on presentation work. Kevin also handled much of the client connection, business framing, pricing thinking, coordination, and project communication.
+
+These are broad responsibility areas, not a reconstructed file-by-file authorship claim.
+
+The original Zuxell development source remains private because it includes client material and early placeholder content. Dated March 9 and April 3 checkpoints, plus the immediate April 3 image-path repair, are summarized in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
+
+The original Spring Webza agency site remains available at `https://webzacrew.netlify.app/`. It is preserved as a historical project artifact. Its promotional agency language reflects the original student business concept and is not evidence that every marketing statement became a verified customer, revenue, or business-performance outcome.
+
+## Client identity and requirements
 
 `LOGOZuxell.png` is the Zuxell Technologies logo and is included to present the client project.
 
-## Screenshots
+The retained client requirements note listed Home, About Us, Expertise, Services, and Contact Us and supplied an optics-industry reference site. `docs/diagrams/client-brief.svg` is a later sanitized visual summary of that note. It does not reproduce personal contact details or other private information.
 
-`docs/assets/screenshots/zuxell-home-current.png` is a current capture of the sanitized Zuxell Technologies public reconstruction.
+## Original Spring media
 
-`docs/assets/screenshots/zuxell-services-current-mobile.png` and `docs/assets/screenshots/zuxell-contact-current-mobile.png` are current mobile captures of that reconstruction.
+`docs/assets/screenshots/webza-home.png` is a cropped capture of the Webza agency website from the original Spring 2026 project materials.
 
-`docs/assets/screenshots/webza-home.png` is a cropped capture of the Webza agency website from the original spring 2026 project materials. It shows the second product and the intentionally different visual identity used for Webza.
+The crop removes browser-edge artifacts only. It does not change the website content shown in the capture.
 
-The Webza screenshot crop removes browser-edge artifacts only. It does not change the website content shown in the capture.
+No untouched Spring screenshot of the original Zuxell site survives in the retained materials. The portfolio therefore uses dated source checkpoints as original implementation evidence instead of presenting a later reconstruction as historical media.
 
-`docs/assets/social-preview.png` is a later showcase graphic created from the current Zuxell reconstruction and the original Webza screenshot.
+## Later public-showcase media
+
+The following files are later reconstruction captures:
+
+- `docs/assets/screenshots/zuxell-services-current-mobile.png`
+- `docs/assets/screenshots/zuxell-contact-current-mobile.png`
+
+An earlier reconstruction home capture and social preview were removed after evidence cleanup because they contained a founding-year statement that the retained public record did not support consistently.
+
+The current reconstruction references demonstration photography hosted by Pexels and loads DM Sans and Playfair Display through Google Fonts. Image URLs are listed directly in `index.html`.
+
+Details of the later reconstruction and its verification are in [`docs/PUBLIC_SHOWCASE.md`](docs/PUBLIC_SHOWCASE.md).
 
 ## Documentation diagrams
 
-`docs/diagrams/project-story.svg` was created later from the original project journal, client requirements note, and source-history dates summarized in `docs/DEVELOPMENT_HISTORY.md`.
+The diagrams in `docs/diagrams/` were created later to explain the retained Spring evidence. They are documentation, not original Spring screenshots.
 
-`docs/diagrams/implementation-evolution.svg` was created later from the preserved March 9 and April 4 source snapshots plus the current public implementation.
+- `project-story.svg` summarizes the chronology from the original project journal, client requirements note, presentation materials, and retained source-history dates.
+- `implementation-evolution.svg` summarizes the March 9 and April 3 source checkpoints plus the feedback themes preserved in the project notes. Its source-change counts come from a direct checkpoint comparison.
+- `source-architecture.svg` presents the same retained checkpoint evidence as a before-and-after source-organization diagram. It does not imply that separating files alone is an advanced technical result.
+- `client-brief.svg` summarizes the five client-requested sections and the existence of the supplied optics-industry reference while omitting private client information.
 
-Both diagrams are documentation created for this repository, not original spring screenshots.
+## Public repository history
 
-## Photography
-
-The current Zuxell reconstruction references demonstration photography hosted by Pexels. The image URLs are listed directly in `index.html`.
-
-## Typography
-
-The current interface loads DM Sans and Playfair Display through Google Fonts.
-
-## Project ownership
-
-The original spring 2026 project was collaborative work by Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, and Algasem Zabarah. See `README.md` for project context and contribution details.
-
-I created this public repository later, so its Git history begins after much of the original team work. The earlier development sequence and surviving source snapshots are summarized in `docs/DEVELOPMENT_HISTORY.md`.
+This public showcase repository was created later, so its Git history begins after much of the original team work. Earlier development evidence, contribution boundaries, and claim limits are documented in `docs/DEVELOPMENT_HISTORY.md`.

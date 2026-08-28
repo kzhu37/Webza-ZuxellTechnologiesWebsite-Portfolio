@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Original Zuxell source architecture comparison</title>
+  <desc id="desc">Comparison between the March 9 single-document implementation and the April 3 separated HTML, CSS, JavaScript, and asset structure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#07101a"/>
+      <stop offset="1" stop-color="#0d1c29"/>
+    </linearGradient>
+    <style>
+      .heading { font: 700 26px Arial, sans-serif; fill: #edf5fb; }
+      .sub { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
+      .kicker { font: 700 12px Arial, sans-serif; fill: #83d176; letter-spacing: 1.2px; }
+      .title { font: 700 20px Arial, sans-serif; fill: #edf5fb; }
+      .mono { font: 700 15px monospace; fill: #edf5fb; }
+      .copy { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
+      .label { font: 700 12px Arial, sans-serif; fill: #6fc8f5; letter-spacing: 0.7px; }
+      .card { fill: #101f2d; stroke: #2a4357; stroke-width: 2; }
+      .file { fill: #0b1724; stroke: #36536a; stroke-width: 1.5; }
+      .arrow { stroke: #6fc8f5; stroke-width: 3; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="500" rx="26" fill="url(#bg)"/>
+  <text x="60" y="55" class="heading">Original Zuxell source architecture</text>
+  <text x="60" y="82" class="sub">The April revision changed both the client experience and how the code was organized for continued refinement.</text>
+
+  <rect x="60" y="125" width="420" height="300" rx="20" class="card"/>
+  <text x="88" y="160" class="kicker">MARCH 9, 2026</text>
+  <text x="88" y="192" class="title">First complete build</text>
+  <rect x="105" y="225" width="330" height="132" rx="16" class="file"/>
+  <text x="132" y="258" class="mono">index.html</text>
+  <text x="132" y="286" class="copy">page structure</text>
+  <text x="132" y="309" class="copy">embedded styling</text>
+  <text x="132" y="332" class="copy">embedded interaction</text>
+  <text x="88" y="397" class="label">ABOUT 87 KB IN ONE DOCUMENT</text>
+
+  <path d="M510 275 H690" class="arrow"/>
+  <path d="M676 263 L692 275 L676 287" class="arrow"/>
+  <text x="535" y="247" class="label">FEEDBACK + REVISION</text>
+  <text x="527" y="310" class="copy">clarity, landing page, visual polish</text>
+  <text x="537" y="332" class="copy">while Webza was built in parallel</text>
+
+  <rect x="720" y="125" width="420" height="300" rx="20" class="card"/>
+  <text x="748" y="160" class="kicker">APRIL 3, 2026</text>
+  <text x="748" y="192" class="title">Separated responsibilities</text>
+
+  <rect x="755" y="220" width="170" height="70" rx="13" class="file"/>
+  <text x="775" y="249" class="mono">index.html</text>
+  <text x="775" y="271" class="copy">structure</text>
+
+  <rect x="940" y="220" width="165" height="70" rx="13" class="file"/>
+  <text x="960" y="249" class="mono">style.css</text>
+  <text x="960" y="271" class="copy">visual system</text>
+
+  <rect x="755" y="305" width="170" height="70" rx="13" class="file"/>
+  <text x="775" y="334" class="mono">script.js</text>
+  <text x="775" y="356" class="copy">interaction</text>
+
+  <rect x="940" y="305" width="165" height="70" rx="13" class="file"/>
+  <text x="960" y="334" class="mono">assets/</text>
+  <text x="960" y="356" class="copy">media</text>
+
+  <text x="748" y="407" class="label">CLEARER SEPARATION DURING ACTIVE CLIENT REVISION</text>
+
+  <text x="60" y="465" class="sub">The point is not that multiple files are inherently advanced. The separation reduced coupling while the product was still changing.</text>
+</svg>

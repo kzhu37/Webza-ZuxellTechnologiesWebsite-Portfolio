@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Retained Zuxell client brief</title>
+  <desc id="desc">Sanitized visual summary of the five requested website sections and the optics-industry reference supplied by the client.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#141b24"/>
+    </linearGradient>
+    <style>
+      .heading { font: 700 26px Arial, sans-serif; fill: #edf5fb; }
+      .sub { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
+      .kicker { font: 700 12px Arial, sans-serif; fill: #83d176; letter-spacing: 1.2px; }
+      .section { font: 700 18px Arial, sans-serif; fill: #edf5fb; }
+      .copy { font: 400 14px Arial, sans-serif; fill: #a8bac8; }
+      .number { font: 700 13px Arial, sans-serif; fill: #6fc8f5; }
+      .card { fill: #101f2d; stroke: #2a4357; stroke-width: 2; }
+      .note { fill: #0b1724; stroke: #36536a; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="26" fill="url(#bg)"/>
+  <text x="60" y="55" class="heading">External brief, not an invented sitemap</text>
+  <text x="60" y="82" class="sub">The retained client note supplied five requested sections and an optics-industry reference, giving the team an outside information structure.</text>
+
+  <g transform="translate(60 130)">
+    <rect x="0" y="0" width="190" height="130" rx="18" class="card"/>
+    <text x="22" y="32" class="number">01</text>
+    <text x="22" y="68" class="section">Home</text>
+    <text x="22" y="95" class="copy">First impression</text>
+
+    <rect x="210" y="0" width="190" height="130" rx="18" class="card"/>
+    <text x="232" y="32" class="number">02</text>
+    <text x="232" y="68" class="section">About Us</text>
+    <text x="232" y="95" class="copy">Company context</text>
+
+    <rect x="420" y="0" width="190" height="130" rx="18" class="card"/>
+    <text x="442" y="32" class="number">03</text>
+    <text x="442" y="68" class="section">Expertise</text>
+    <text x="442" y="95" class="copy">Technical focus</text>
+
+    <rect x="630" y="0" width="190" height="130" rx="18" class="card"/>
+    <text x="652" y="32" class="number">04</text>
+    <text x="652" y="68" class="section">Services</text>
+    <text x="652" y="95" class="copy">Client offerings</text>
+
+    <rect x="840" y="0" width="190" height="130" rx="18" class="card"/>
+    <text x="862" y="32" class="number">05</text>
+    <text x="862" y="68" class="section">Contact Us</text>
+    <text x="862" y="95" class="copy">Inquiry path</text>
+  </g>
+
+  <rect x="60" y="300" width="1030" height="76" rx="16" class="note"/>
+  <text x="86" y="329" class="kicker">CLIENT-SUPPLIED REFERENCE</text>
+  <text x="86" y="354" class="copy">The note also pointed the team to an established optics-industry website as a visual and structural reference.</text>
+
+  <text x="60" y="407" class="sub">Personal contact details and other private information are intentionally omitted from this public summary.</text>
+</svg>

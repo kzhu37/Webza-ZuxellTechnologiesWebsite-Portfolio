@@ -1,38 +1,63 @@
 # Webza x Zuxell Technologies
 
-**A four-person real-client web project combining client acquisition, audience-specific design, front-end development, business thinking, iteration, and team execution for an optical engineering company.**
-
 <p align="center">
-  <a href="https://webza-zuxell-technologies-portfolio.vercel.app/"><strong>Live Zuxell showcase</strong></a>
-  &nbsp;|&nbsp;
-  <a href="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml"><strong>Verification workflow</strong></a>
+  <strong>A four-person Spring 2026 real-client web project that turned outreach, external requirements, feedback, and an unfamiliar optical-engineering domain into two audience-specific web products.</strong>
 </p>
 
-> **Showcase note:** The live Zuxell site is a sanitized public reconstruction. Personal details, location information, and proprietary client material have been removed, and company copy is limited to information supported by the retained project materials.
+<p align="center">
+  HTML · CSS · JavaScript
+</p>
+
+<p align="center">
+  <a href="https://webzacrew.netlify.app/"><strong>Open Original Spring Webza</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://webza-zuxell-technologies-portfolio.vercel.app/"><strong>Inspect Zuxell Reconstruction</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml"><img alt="Verify public showcase" src="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml/badge.svg"></a>
+</p>
 
 <table>
   <tr>
-    <th width="50%">Zuxell Technologies</th>
-    <th width="50%">Webza</th>
+    <td width="64%">
+      <img src="docs/assets/screenshots/webza-home.png" alt="Original Spring 2026 Webza agency website homepage">
+    </td>
+    <td width="36%">
+      <img src="docs/assets/screenshots/zuxell-services-current-mobile.png" alt="Later sanitized Zuxell reconstruction showing the services experience on mobile">
+    </td>
   </tr>
   <tr>
-    <td><img src="docs/assets/screenshots/zuxell-home-current.png" alt="Current Zuxell Technologies public reconstruction homepage"></td>
-    <td><img src="docs/assets/screenshots/webza-home.png" alt="Original spring 2026 Webza agency website homepage"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Current public reconstruction, shaped around the restrained and technical direction used for the client.</sub></td>
-    <td align="center"><sub>Original spring 2026 Webza capture, intentionally bolder because the agency itself was being marketed.</sub></td>
+    <td align="center"><sub><strong>Original Spring Webza:</strong> expressive agency storefront built to present our web-design service.</sub></td>
+    <td align="center"><sub><strong>Later Zuxell reconstruction:</strong> sanitized public view of the more restrained client-facing direction. It is not presented as an untouched Spring screenshot.</sub></td>
   </tr>
 </table>
 
+> **Evidence note:** The original Webza deployment and dated Zuxell source checkpoints survive. No untouched Spring Zuxell screenshot does, so the public Zuxell demo is clearly separated from the original historical evidence.
+
 <p align="center">
-  <a href="#from-idea-to-real-client">Story</a> ·
+  <a href="docs/ORIGINAL_TECHNICAL_EVIDENCE.md"><strong>Original Zuxell Technical Evidence</strong></a>
+  &nbsp;·&nbsp;
+  <a href="docs/DEVELOPMENT_HISTORY.md"><strong>Development History</strong></a>
+  &nbsp;·&nbsp;
+  <a href="ATTRIBUTION.md"><strong>Attribution and Provenance</strong></a>
+</p>
+
+<p align="center">
+  <strong>Original Zuxell progression:</strong> March 9 complete client build -> client feedback -> April 3 major revision with separated HTML, CSS, and JavaScript.
+</p>
+
+<p align="center">
+  <img src="docs/diagrams/implementation-evolution.svg" alt="Spring 2026 implementation evolution from the March 9 first build through feedback to the April 3 revision" width="100%">
+</p>
+
+<p align="center">
+  <a href="#at-a-glance">Overview</a> ·
+  <a href="#from-idea-to-external-client">Client story</a> ·
   <a href="#two-products-two-audiences">Design</a> ·
-  <a href="#iteration-and-design-decisions">Iteration</a> ·
-  <a href="#technical-evolution">Technical</a> ·
-  <a href="#what-i-would-change-next-time">Reflection</a> ·
-  <a href="#my-contribution">Contribution</a> ·
-  <a href="#current-public-showcase">Showcase</a>
+  <a href="#feedback-changed-the-product-and-the-code">Iteration</a> ·
+  <a href="#business-and-delivery-thinking">Business</a> ·
+  <a href="#challenges-and-lessons">Lessons</a> ·
+  <a href="#contribution-and-collaboration">Contribution</a> ·
+  <a href="#evidence-and-provenance">Evidence</a>
 </p>
 
 ## At a glance
@@ -40,48 +65,37 @@
 | | |
 | --- | --- |
 | **Project type** | Real-client web design and development |
-| **Team** | Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, Algasem Zabarah |
-| **Development** | Late February to April 9, 2026 |
 | **Client** | Zuxell Technologies |
-| **Deliverables** | Zuxell client website, Webza agency website, revision cycle, final team pitch |
+| **Team** | Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, Algasem Zabarah |
+| **Development** | Late February through April 9, 2026 |
+| **Deliverables** | Zuxell client website, Webza agency website, revision cycle, final startup-style pitch |
 | **Core stack** | HTML, CSS, JavaScript |
-| **Client brief** | Home, About Us, Expertise, Services, Contact Us |
-| **My role** | Client connection, shared implementation, business and service framing, coordination, revision, and project communication |
+| **External brief** | Home, About Us, Expertise, Services, Contact Us, plus an optics-industry reference site |
+| **Kevin's role** | Real-client direction and connection, substantial coding and revision with Michael, business framing, coordination, and project communication |
+| **Distinctive challenge** | Delivering for an external stakeholder in an unfamiliar technical industry instead of designing around a fictional brief |
+| **Original evidence** | Surviving Webza deployment and capture, dated Zuxell source checkpoints, client requirements note, project journal, and presentation materials |
+
+The project became more demanding when another organization became responsible for judging the result. We had to find a client, understand an unfamiliar technical field, build for somebody else's audience, revise after feedback, coordinate a team, and explain the work as both a product and a service.
+
+## From idea to external client
+
+Webza began as a web-design agency concept. We decided that a fictional client would leave too much of the problem under our control, so we compiled local businesses, divided outreach across the team, and continued after rejection or no response.
+
+In early March, I connected the team with **Zuxell Technologies through a family connection**. Zuxell worked in optical engineering and needed a stronger online presence. Its retained requirements note gave us an external information structure instead of a sitemap we invented ourselves.
+
+<p align="center">
+  <img src="docs/diagrams/client-brief.svg" alt="Sanitized summary of the retained Zuxell client brief with five requested sections and an optics-industry reference" width="100%">
+</p>
+
+The problem was no longer "make a website we like." We had to decide what a technical visitor should see first, how much domain language to use, what capabilities deserved emphasis, and what visual direction would establish credibility.
 
 <p align="center">
   <img src="docs/diagrams/project-story.svg" alt="Webza and Zuxell development timeline from late February through the April 9 final pitch" width="100%">
 </p>
 
-### What shipped
-
-The project produced more than a single website. It combined four connected outputs:
-
-1. **A client-facing Zuxell site** built around an external five-section brief and a restrained technical identity.
-2. **A separate Webza agency site** with a deliberately more promotional visual direction for a different audience.
-3. **A revision cycle** in which the first complete Zuxell build was revisited after feedback instead of being treated as finished.
-4. **A final startup-style pitch** that connected outreach, client discovery, implementation, design choices, challenges, revision, and lessons into one project story.
-
-## From idea to real client
-
-Webza began as a small web-design agency concept. We wanted to build custom websites around the needs of individual businesses instead of creating another fictional brief where we could control every requirement ourselves.
-
-We compiled a list of local businesses, divided outreach across the team, and dealt with repeated rejections or no response. That process mattered because it forced us to treat finding the problem as part of the project rather than assuming a client would already be waiting.
-
-In early March, I connected the team with **Zuxell Technologies through a family connection**. Zuxell worked in optical engineering and needed a website. The requirements note we received specified five core areas:
-
-```text
-Home
-About Us
-Expertise
-Services
-Contact Us
-```
-
-It also pointed us toward an established optics-industry website as a design reference. From that point on, the project had external constraints: understand an unfamiliar technical business, decide what technical visitors needed first, and make design decisions for somebody else's audience.
-
 ## Two products, two audiences
 
-The project produced two connected websites, but they were intentionally not designed to look alike.
+The project produced two related websites, but one visual system would not have served both.
 
 | | **Zuxell client site** | **Webza agency site** |
 | --- | --- | --- |
@@ -89,130 +103,97 @@ The project produced two connected websites, but they were intentionally not des
 | **Goal** | Establish clarity and technical credibility | Show personality, capability, and service positioning |
 | **Visual direction** | Restrained, precise, professional | Bold, expressive, pitch-driven |
 | **Content focus** | Optical-engineering services and inquiry | Agency identity, services, team, and process |
-| **Role in the project** | External client deliverable | Our own storefront and service showcase |
+| **Role** | External client deliverable | Our own service storefront |
 
-The Zuxell direction centered the three service areas preserved in the client materials: **laser manufacturing, lens design, and optical testing**. The landing page was treated as the key first impression, so the client site emphasized clarity, trust, and technical restraint.
+Zuxell centered the preserved client service areas: **laser manufacturing, lens design, and optical testing**. We treated the landing page as the most important first impression, so clarity and credibility mattered more than adding effects for their own sake.
 
-Webza could be more promotional because the agency itself was the product being marketed. The retained project materials describe our offer around **custom websites for businesses**, with service ideas spanning design, speed, mobile responsiveness, security, strategy, and support.
+Webza could be more promotional because the agency itself was the service being marketed. Its Spring site presented service ideas around **design, speed, mobile responsiveness, security, strategy, and support**.
 
-That contrast became one of the clearest lessons from the project: **design should respond to audience, purpose, and context instead of applying one preferred style everywhere.**
+**The design lesson was that visual identity should follow audience and purpose instead of applying one preferred style everywhere.**
 
-## Iteration and design decisions
+## Feedback changed the product and the code
 
-The first complete Zuxell version was built before March Break and was not treated as final. After reviewing the first version and receiving feedback, we returned to the client site, clarified sections, polished the design, and strengthened the landing-page direction.
+The first complete Zuxell version was ready before March Break. We treated it as a first version, not as the end of the project. After the break, the surviving journal and presentation materials record three main feedback themes: **clarify some sections, polish the visual direction, and strengthen the landing-page experience**.
 
-The surviving source history shows the implementation changing at the same time. A **March 9** snapshot kept most structure, styling, and interaction in one large `index.html`. By the **April 4** revision, the site had been reorganized into `index.html`, `style.css`, and `script.js`, alongside a larger interaction layer.
+The retained source history shows that the response was not only cosmetic.
 
-| Observation or constraint | Decision | Result |
+| Constraint or feedback | Decision | What it demonstrated |
 | --- | --- | --- |
-| A fictional client would have been easier but less meaningful | Keep pursuing a real organization despite unsuccessful outreach | The project gained external requirements and a real stakeholder context |
-| The first client build was useful but still provisional | Return to the site after March Break and revise instead of treating the first complete version as finished | Sections became clearer and the landing-page direction was polished |
-| Zuxell and Webza served different audiences | Give each product its own visual identity and content priorities | Zuxell became restrained and technical while Webza became bolder and more promotional |
-| The early client implementation was tightly coupled | Separate structure, styling, and interaction during revision | The codebase became easier to reason about and continue refining |
-| Team availability shifted after March Break | Reprioritize work and keep the client site, agency site, and pitch moving | Coordination became a practical project constraint that required clearer handoffs and prioritization |
-| The agency, client, revision work, and two sites risked feeling disconnected | Rebuild the final pitch around one chronological story | The final presentation connected outreach, client work, design decisions, challenges, revision, and reflection |
+| A fictional client would have been easier | Keep pursuing a real organization despite unsuccessful outreach | Initiative and willingness to accept external constraints |
+| The first build worked but still needed refinement | Return after March Break and revise clarity, design, and the landing page | Completion is not the same as readiness |
+| Zuxell and Webza served different audiences | Give each product its own visual identity and content priorities | Design should follow audience and purpose |
+| The early Zuxell implementation was tightly coupled | Separate structure, styling, and interaction during revision | Cleaner separation made continued refinement easier |
+| Team availability changed while both sites and the pitch were moving | Reprioritize work and coordinate handoffs | Delivery depended on communication as well as implementation |
+| Richer motion was technically possible | Judge interactions by whether they supported the client experience | Technical complexity should justify itself |
 
-The detailed chronology is preserved in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
+The March 9 checkpoint records most of the first complete interface in one approximately 87 KB `index.html`. By April 3, the revised implementation was split into approximately 52 KB of HTML, 49 KB of CSS, and 8 KB of JavaScript. A direct comparison records **1,516 changed HTML lines**, plus a new **911-line stylesheet** and **245-line interaction script**.
 
-## Technical evolution
-
-The project used browser fundamentals rather than a front-end framework. The technical work was therefore about responsive layout, navigation, interaction, presentation, and keeping two different site identities coherent in a small codebase.
+Those counts establish revision scale, not quality. The stronger engineering point is that structure, styling, behavior, and assets became easier to reason about while the client-facing product itself was changing.
 
 <p align="center">
-  <img src="docs/diagrams/implementation-evolution.svg" alt="Implementation evolution from the March 9 client build to the April 4 revision and current public reconstruction" width="100%">
+  <img src="docs/diagrams/source-architecture.svg" alt="Original Zuxell source architecture comparison between the March 9 single-document build and April 3 separated implementation" width="100%">
 </p>
 
-### Original spring implementation
+The Spring interaction layer included responsive navigation, contact behavior, entrance and scroll effects, animated content, and other motion experiments. The lasting lesson was learning to distinguish **what we could implement** from **what the client experience actually needed**.
 
-The **March 9** client snapshot concentrated most of the interface in one large `index.html`. By **April 4**, structure, styling, and interaction had been separated into focused files:
+For source-backed excerpts and the full checkpoint comparison, see [`docs/ORIGINAL_TECHNICAL_EVIDENCE.md`](docs/ORIGINAL_TECHNICAL_EVIDENCE.md).
 
-```text
-index.html  -> structure and content
-style.css   -> visual system and responsive layout
-script.js   -> navigation and interaction
-```
+## Business and delivery thinking
 
-The spring interaction layer experimented with an optics-themed entrance, desktop and mobile navigation, contact interaction, scroll reveals, a navbar scroll effect, rotating headline text, animated counters, card tilt, parallax, progress indication, and staggered reveal behavior.
+The presentation framed Webza as more than access to a website-building tool. The service idea was to design and build the site for a client, then remain available for continued maintenance and support.
 
-Not every effect survived later review, and that is part of the engineering lesson. More interaction is not automatically better interaction. The client direction called for precision and credibility, so the public showcase now keeps the optics identity while removing motion that competed with the content.
+The Spring materials explored a proposed **$500 initial website build plus $30 per month maintenance** model. This was a classroom business-model exercise, not evidence of client payment or revenue.
 
-### Current browser behavior
+That exercise forced us to ask what a client was actually buying, what maintenance could include, how a service could be priced, and how an ongoing relationship differs from a one-time handoff.
 
-The current public site keeps the lightweight HTML, CSS, and JavaScript stack while adding:
+The final presentation was organized chronologically around the Webza idea, client search, Zuxell acquisition, first client build, feedback and revision, separate Webza site, challenges, business framing, and lessons. That structure helped us explain the project as a sequence of decisions rather than as a feature list.
 
-- semantic section structure and hash-based navigation;
-- responsive desktop, tablet, and mobile layouts;
-- keyboard-operable navigation with focus restoration and focus trapping for the mobile menu;
-- visible focus states and reduced-motion support;
-- a browser-only inquiry demonstration that uses native validity checks without transmitting data;
-- dependency-free local serving and automated content, server, and browser smoke checks.
+## Challenges and lessons
 
-The browser interaction code is intentionally small. `script.js` manages section routing, navigation state, menu accessibility, keyboard behavior, inquiry validation, and the current year without adding a framework or runtime dependency.
+| Challenge | What I would do differently now |
+| --- | --- |
+| **Scope and onboarding** | Define content ownership, revision expectations, communication cadence, and feedback timing before development accelerates |
+| **Ownership and handoffs** | Set clearer responsibility boundaries and earlier check-ins so changing availability creates less coordination friction |
+| **Evidence preservation** | Capture dated screenshots, feedback notes, and revision decisions alongside the code rather than reconstructing the record later |
+| **Interaction judgment** | Treat motion and visual effects as design decisions that need a user or client reason, not as automatic evidence of technical quality |
 
-<table>
-  <tr>
-    <td width="50%"><img src="docs/assets/screenshots/zuxell-services-current-mobile.png" alt="Current Zuxell services page on a mobile viewport"></td>
-    <td width="50%"><img src="docs/assets/screenshots/zuxell-contact-current-mobile.png" alt="Current Zuxell inquiry interface on a mobile viewport"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Responsive services layout on a narrow viewport.</sub></td>
-    <td align="center"><sub>Browser-only inquiry interface with no submission endpoint.</sub></td>
-  </tr>
-</table>
+The larger lesson was that software becomes more demanding when constraints come from real people. Implementation still matters, but so do trust, scope, audience, communication, revision, and the ability to explain why a decision exists.
 
-### Verification
+## Contribution and collaboration
 
-The repository runs `npm test` on pushes to `main` and on pull requests. The verification path combines syntax checks with content, server, and browser smoke tests. The content audit also rejects long dash characters across public text files so the repository stays consistent with its writing standard.
-
-## What I would change next time
-
-**Formalize client onboarding earlier.** We had a requirements note, but a stronger engagement would define scope, content ownership, revision expectations, and a feedback schedule before development accelerated.
-
-**Define ownership and handoffs earlier.** Team availability changed during the project. Clearer responsibility boundaries, earlier check-ins, and a shared task tracker would have reduced coordination friction.
-
-**Treat outreach and documentation as part of the engineering process.** A more systematic outreach tracker, clearer revision notes, and preserved before-and-after evidence would have made both the process and the final project history easier to evaluate.
-
-**Shape the story while building, not only before presenting.** The final pitch forced us to connect the agency, client, design choices, challenges, and revisions into one understandable sequence. Doing that earlier would have improved both the product process and the explanation of our decisions.
-
-The biggest lesson was that software becomes more demanding when the constraints come from real people. Technical implementation still matters, but so do trust, scope, communication, audience, revision, and the ability to explain why a design decision exists.
-
-## My contribution
-
-This was collaborative work, and the retained project record is much stronger at describing **areas of work** than assigning exact files to individual people. I therefore do not reconstruct module-by-module authorship after the fact.
-
-My contribution crossed both implementation and the client-facing side of the project:
+This was collaborative work. The surviving record supports broad responsibility areas, but it is not precise enough to reconstruct file-by-file authorship after the fact.
 
 | Area | My contribution |
 | --- | --- |
 | **Project direction** | Helped push the group toward a real-client engagement instead of stopping at a hypothetical brief |
 | **Client acquisition** | Participated in outreach and ultimately connected the team with Zuxell Technologies through a family connection |
-| **Implementation** | Worked on coding and revision alongside Michael, while Vladimir led much of the UI, design, and visual-consistency work |
-| **Business framing** | Helped shape how Webza described its services, pricing thinking, and value to a real client without treating the work as only a coding exercise |
-| **Coordination** | Helped keep the two websites and the final project story moving as team availability changed |
-| **Communication** | Helped shape the startup-style pitch, chronology, challenge explanations, audience contrast, and final lessons |
+| **Implementation** | Worked on substantial coding and revision alongside Michael, while Vladimir led much of the UI, design, and visual-consistency work |
+| **Business framing** | Helped shape Webza's service positioning, pricing thinking, maintenance model, and value proposition |
+| **Coordination** | Helped keep client revisions, Webza development, and presentation work moving as team availability changed |
+| **Communication** | Helped shape the chronological pitch, challenge explanations, audience contrast, and lessons |
 
-The team's strengths overlapped. The retained notes describe **Michael and me as handling much of the coding**, **Vladimir as leading much of the interface and visual direction**, and **Algasem as concentrating more heavily on presentation work**, while I also carried much of the business and client framing. That division is useful context, but it is not a claim that any one person exclusively owned a specific module.
+The retained notes describe **Michael and me as handling much of the coding**, **Vladimir as leading much of the interface and visual direction**, and **Algasem as concentrating more heavily on presentation work**. Responsibilities overlapped, so this repository does not claim exclusive ownership of modules that the surviving evidence cannot support.
 
-## Current public showcase
+See [`ATTRIBUTION.md`](ATTRIBUTION.md) for the detailed collaboration, media, and provenance record.
 
-The live site in this repository is a **sanitized reconstruction**, not an untouched spring artifact. The original development copy contains client material and early placeholder claims that should not be public.
+## Evidence and provenance
 
-The current version deliberately:
+The Spring record includes the project journal and presentation materials, Zuxell requirements note, March 9 and April 3 source checkpoints, original Webza capture, and surviving Webza deployment.
 
-- keeps the documented client structure and supported service areas;
-- removes unsupported statistics, certifications, client logos, testimonials, and other placeholder claims;
-- reduces generic motion so the interface better matches the restrained client direction;
-- improves keyboard, mobile, focus, and reduced-motion behavior;
-- keeps inquiry validation entirely in the browser, with no submission endpoint;
-- adds lightweight automated checks for layout, navigation, accessibility state, content hygiene, and console failures.
+No untouched Spring Zuxell screenshot survives, so dated source checkpoints serve as the original implementation evidence. The full development copy remains private because it contains client material and early placeholder claims that should not be republished as verified company information.
 
-Those later improvements are useful public-release work, but they are not retroactively described as original spring work. The distinction is documented in [`docs/DEVELOPMENT_HISTORY.md`](docs/DEVELOPMENT_HISTORY.md).
+The **later sanitized Zuxell reconstruction** exists only to make the client-facing direction publicly inspectable. It is supporting showcase work, not part of the Spring chronology. See [`docs/PUBLIC_SHOWCASE.md`](docs/PUBLIC_SHOWCASE.md).
 
-## Run locally
+The surviving record does not support an exact final client quotation, formal final approval before the April 9 pitch, traffic, conversion, client revenue, or precise module-by-module authorship. Those claims are intentionally omitted rather than reconstructed later.
+
+## Run and verify
+
+The repository root runs the later public Zuxell reconstruction.
 
 ### Requirements
 
-- Node.js 20 or newer
+- Node.js 22 or newer
+- Chrome, Chromium, or Microsoft Edge for the browser smoke test
 - No install step
 - No runtime package dependencies
 
@@ -220,31 +201,26 @@ Those later improvements are useful public-release work, but they are not retroa
 npm start
 ```
 
-Open the local URL printed in the terminal.
-
-To run the verification checks:
+Run the complete verification path with:
 
 ```bash
 npm test
 ```
 
+The verification suite checks responsive layouts, navigation state, keyboard behavior, inquiry validation, image alternative text, placeholder links, metadata, console errors, local documentation references, and forbidden long-dash characters in public text files.
+
 ## Repository map
 
-- `index.html`: current public Zuxell reconstruction
-- `style.css`: responsive visual system
-- `script.js`: navigation, focus behavior, and inquiry validation
-- `dev-server.js`: dependency-free local server
-- `tests/`: content, server, and browser smoke checks
-- `.github/workflows/verify.yml`: automated verification on pushes and pull requests
-- `docs/DEVELOPMENT_HISTORY.md`: original project chronology and public-release boundaries
-- `docs/diagrams/`: project timeline and implementation-evolution visuals
-- `docs/assets/screenshots/`: current Zuxell captures and original Webza capture
-- `ATTRIBUTION.md`: collaboration, media, and source notes
-
-## Collaboration and attribution
-
-The original spring 2026 project was collaborative work by **Kevin Zhu, Vladimir Dukkardt, Michael Tetelbaum, and Algasem Zabarah**.
-
-The current Zuxell reconstruction references demonstration photography from Pexels and loads DM Sans and Playfair Display through Google Fonts. See [`ATTRIBUTION.md`](ATTRIBUTION.md) for the detailed media and collaboration notes.
-
-The project does not claim details that the surviving record cannot support, including an exact final client quotation, formal final approval before the April pitch, traffic, conversion, revenue, or a precise module-by-module authorship breakdown.
+- `docs/DEVELOPMENT_HISTORY.md`: source-backed Spring chronology and evidence boundaries
+- `docs/ORIGINAL_TECHNICAL_EVIDENCE.md`: sanitized original checkpoint comparison and code excerpts
+- `docs/PUBLIC_SHOWCASE.md`: later sanitized Zuxell reconstruction, screenshots, and verification details
+- `docs/diagrams/client-brief.svg`: sanitized visual summary of the retained external requirements
+- `docs/diagrams/project-story.svg`: Spring 2026 project timeline
+- `docs/diagrams/implementation-evolution.svg`: feedback and source-revision evidence
+- `docs/diagrams/source-architecture.svg`: before-and-after source organization from the original Zuxell checkpoints
+- `docs/assets/screenshots/webza-home.png`: original Spring 2026 Webza capture
+- `docs/assets/screenshots/zuxell-services-current-mobile.png`: later reconstruction services capture
+- `docs/assets/screenshots/zuxell-contact-current-mobile.png`: later reconstruction contact capture
+- `ATTRIBUTION.md`: collaboration, media, and provenance
+- `index.html`, `style.css`, `script.js`: later public Zuxell reconstruction
+- `tests/` and `.github/workflows/verify.yml`: automated verification for the later public showcase
