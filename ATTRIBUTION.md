@@ -32,10 +32,11 @@ No untouched Spring screenshot of the original Zuxell site survives in the retai
 
 The following files are later reconstruction captures:
 
+- `docs/assets/screenshots/zuxell-home-current.png`
 - `docs/assets/screenshots/zuxell-services-current-mobile.png`
 - `docs/assets/screenshots/zuxell-contact-current-mobile.png`
 
-An earlier reconstruction home capture and social preview were removed after evidence cleanup because they contained a founding-year statement that the retained public record did not support consistently.
+The earlier reconstruction home capture is retained because it shows the client-facing visual direction used in the earlier portfolio version. It contains a founding-year statement that the retained public record does not support consistently, so the image is not used as evidence for that claim. The current live reconstruction omits that statement.
 
 The current reconstruction references demonstration photography hosted by Pexels and loads DM Sans and Playfair Display through Google Fonts. Image URLs are listed directly in `index.html`.
 

@@ -41,7 +41,7 @@ The point of the reconstruction is inspectability, not historical substitution. 
 
 These are later reconstruction captures, not untouched Spring 2026 screenshots.
 
-An earlier reconstruction home capture and social preview were removed after evidence cleanup because they contained a founding-year statement that the retained public record did not support consistently.
+The repository also retains `assets/screenshots/zuxell-home-current.png`, an earlier reconstruction homepage capture used in the README's opening visual comparison. That image contains a founding-year statement that the retained public record does not support consistently, so it is preserved for visual presentation only and is not evidence for that claim. The current live reconstruction omits the statement.
 
 ## Verification
 

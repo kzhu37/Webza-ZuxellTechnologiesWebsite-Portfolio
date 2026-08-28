@@ -18,16 +18,16 @@
 
 <table>
   <tr>
-    <td width="64%">
+    <td width="50%">
       <img src="docs/assets/screenshots/webza-home.png" alt="Original Spring 2026 Webza agency website homepage">
     </td>
-    <td width="36%">
-      <img src="docs/assets/screenshots/zuxell-services-current-mobile.png" alt="Later sanitized Zuxell reconstruction showing the services experience on mobile">
+    <td width="50%">
+      <img src="docs/assets/screenshots/zuxell-home-current.png" alt="Earlier Zuxell Technologies public reconstruction homepage">
     </td>
   </tr>
   <tr>
     <td align="center"><sub><strong>Original Spring Webza:</strong> expressive agency storefront built to present our web-design service.</sub></td>
-    <td align="center"><sub><strong>Later Zuxell reconstruction:</strong> sanitized public view of the more restrained client-facing direction. It is not presented as an untouched Spring screenshot.</sub></td>
+    <td align="center"><sub><strong>Earlier Zuxell reconstruction:</strong> the restrained client-facing visual direction used in the earlier portfolio version. It is not presented as an untouched Spring screenshot.</sub></td>
   </tr>
 </table>
 
@@ -219,6 +219,7 @@ The verification suite checks responsive layouts, navigation state, keyboard beh
 - `docs/diagrams/implementation-evolution.svg`: feedback and source-revision evidence
 - `docs/diagrams/source-architecture.svg`: before-and-after source organization from the original Zuxell checkpoints
 - `docs/assets/screenshots/webza-home.png`: original Spring 2026 Webza capture
+- `docs/assets/screenshots/zuxell-home-current.png`: earlier reconstruction homepage capture used in the opening visual comparison
 - `docs/assets/screenshots/zuxell-services-current-mobile.png`: later reconstruction services capture
 - `docs/assets/screenshots/zuxell-contact-current-mobile.png`: later reconstruction contact capture
 - `ATTRIBUTION.md`: collaboration, media, and provenance
