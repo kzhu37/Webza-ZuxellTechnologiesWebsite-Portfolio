@@ -1,6 +1,6 @@
-# Later Public Showcase
+# Later Public Reconstruction
 
-This page documents the later sanitized Zuxell reconstruction at the repository root. It is supporting portfolio work, not part of the original Spring 2026 project chronology.
+This page documents the later sanitized Zuxell reconstruction at the repository root. It is separate from the original Spring 2026 project chronology.
 
 ## Why a reconstruction exists
 
@@ -20,7 +20,7 @@ The reconstruction:
 - changes the inquiry interface so entries are validated locally and never transmitted;
 - adds syntax, content, server, and browser smoke checks.
 
-The point of the reconstruction is inspectability, not historical substitution. It shows how the client-facing direction can be presented publicly without blurring the boundary between retained Spring evidence and later portfolio cleanup.
+The reconstruction exists for inspectability, not historical substitution. It makes the client-facing direction public without blurring the boundary between retained Spring evidence and later repository work.
 
 ## Current reconstruction media
 
