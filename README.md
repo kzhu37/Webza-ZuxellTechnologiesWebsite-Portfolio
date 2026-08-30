@@ -13,7 +13,7 @@
   &nbsp;·&nbsp;
   <a href="https://webza-zuxell-technologies-portfolio.vercel.app/"><strong>Inspect Zuxell Reconstruction</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml"><img alt="Verify public showcase" src="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml/badge.svg"></a>
+  <a href="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml"><img alt="Verify" src="https://github.com/kzhu37/Webza-ZuxellTechnologiesWebsite-Portfolio/actions/workflows/verify.yml/badge.svg"></a>
 </p>
 
 <table>
@@ -75,7 +75,7 @@
 | **Distinctive challenge** | Delivering for an external stakeholder in an unfamiliar technical industry instead of designing around a fictional brief |
 | **Original evidence** | Surviving Webza deployment and capture, dated Zuxell source checkpoints, client requirements note, project journal, and presentation materials |
 
-The project became more demanding when another organization became responsible for judging the result. We had to find a client, understand an unfamiliar technical field, build for somebody else's audience, revise after feedback, coordinate a team, and explain the work as both a product and a service.
+The project became more demanding when another organization became responsible for the result. We had to find a client, understand an unfamiliar technical field, build for somebody else's audience, revise after feedback, coordinate a team, and explain the work as both a product and a service.
 
 ## From idea to external client
 
@@ -117,14 +117,14 @@ The first complete Zuxell version was ready before March Break. We treated it as
 
 The retained source history shows that the response was not only cosmetic.
 
-| Constraint or feedback | Decision | What it demonstrated |
+| Constraint or feedback | Decision | Why it mattered |
 | --- | --- | --- |
-| A fictional client would have been easier | Keep pursuing a real organization despite unsuccessful outreach | Initiative and willingness to accept external constraints |
-| The first build worked but still needed refinement | Return after March Break and revise clarity, design, and the landing page | Completion is not the same as readiness |
-| Zuxell and Webza served different audiences | Give each product its own visual identity and content priorities | Design should follow audience and purpose |
+| A fictional client would have been easier | Keep pursuing a real organization despite unsuccessful outreach | The project accepted external constraints instead of controlling the brief internally |
+| The first build worked but still needed refinement | Return after March Break and revise clarity, design, and the landing page | A working first version still needed client-facing refinement |
+| Zuxell and Webza served different audiences | Give each product its own visual identity and content priorities | Design choices became tied to audience and purpose |
 | The early Zuxell implementation was tightly coupled | Separate structure, styling, and interaction during revision | Cleaner separation made continued refinement easier |
 | Team availability changed while both sites and the pitch were moving | Reprioritize work and coordinate handoffs | Delivery depended on communication as well as implementation |
-| Richer motion was technically possible | Judge interactions by whether they supported the client experience | Technical complexity should justify itself |
+| Richer motion was technically possible | Judge interactions by whether they supported the client experience | Extra technical complexity needed a product reason |
 
 The March 9 checkpoint records most of the first complete interface in one approximately 87 KB `index.html`. By April 3, the revised implementation was split into approximately 52 KB of HTML, 49 KB of CSS, and 8 KB of JavaScript. A direct comparison records **1,516 changed HTML lines**, plus a new **911-line stylesheet** and **245-line interaction script**.
 
@@ -155,7 +155,7 @@ The final presentation was organized chronologically around the Webza idea, clie
 | **Scope and onboarding** | Define content ownership, revision expectations, communication cadence, and feedback timing before development accelerates |
 | **Ownership and handoffs** | Set clearer responsibility boundaries and earlier check-ins so changing availability creates less coordination friction |
 | **Evidence preservation** | Capture dated screenshots, feedback notes, and revision decisions alongside the code rather than reconstructing the record later |
-| **Interaction judgment** | Treat motion and visual effects as design decisions that need a user or client reason, not as automatic evidence of technical quality |
+| **Interaction judgment** | Treat motion and visual effects as design decisions that need a user or client reason, not as a substitute for product quality |
 
 The larger lesson was that software becomes more demanding when constraints come from real people. Implementation still matters, but so do trust, scope, audience, communication, revision, and the ability to explain why a decision exists.
 
@@ -180,11 +180,9 @@ See [`ATTRIBUTION.md`](ATTRIBUTION.md) for the detailed collaboration, media, an
 
 The Spring record includes the project journal and presentation materials, Zuxell requirements note, March 9 and April 3 source checkpoints, original Webza capture, and surviving Webza deployment.
 
-No untouched Spring Zuxell screenshot survives, so dated source checkpoints serve as the original implementation evidence. The full development copy remains private because it contains client material and early placeholder claims that should not be republished as verified company information.
+No untouched Spring Zuxell screenshot survives. Dated source checkpoints therefore serve as the original implementation evidence, while the **later sanitized Zuxell reconstruction** makes the client-facing direction publicly inspectable with private client material removed. The reconstruction is not part of the Spring chronology. See [`docs/PUBLIC_SHOWCASE.md`](docs/PUBLIC_SHOWCASE.md) and [`ATTRIBUTION.md`](ATTRIBUTION.md) for the detailed boundary.
 
-The **later sanitized Zuxell reconstruction** exists only to make the client-facing direction publicly inspectable. It is supporting showcase work, not part of the Spring chronology. See [`docs/PUBLIC_SHOWCASE.md`](docs/PUBLIC_SHOWCASE.md).
-
-The surviving record does not support an exact final client quotation, formal final approval before the April 9 pitch, traffic, conversion, client revenue, or precise module-by-module authorship. Those claims are intentionally omitted rather than reconstructed later.
+The surviving record does not support an exact final client quotation, formal final approval before the April 9 pitch, traffic, conversion, client revenue, or precise module-by-module authorship. Those claims are intentionally omitted.
 
 ## Run and verify
 
@@ -224,4 +222,4 @@ The verification suite checks responsive layouts, navigation state, keyboard beh
 - `docs/assets/screenshots/zuxell-contact-current-mobile.png`: later reconstruction contact capture
 - `ATTRIBUTION.md`: collaboration, media, and provenance
 - `index.html`, `style.css`, `script.js`: later public Zuxell reconstruction
-- `tests/` and `.github/workflows/verify.yml`: automated verification for the later public showcase
+- `tests/` and `.github/workflows/verify.yml`: automated verification for the later public reconstruction
