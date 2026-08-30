@@ -1,4 +1,4 @@
-// Later sanitized public reconstruction for portfolio inspection. This is not the untouched Spring 2026 client source. See docs/PUBLIC_SHOWCASE.md.
+// Later sanitized public reconstruction. This is not the untouched Spring 2026 client source. See docs/PUBLIC_SHOWCASE.md.
 (() => {
   "use strict";
 
