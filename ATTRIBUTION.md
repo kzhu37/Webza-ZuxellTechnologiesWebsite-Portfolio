@@ -1,6 +1,6 @@
 # Attribution and provenance
 
-This repository documents the Webza x Zuxell Technologies project and includes a later sanitized public reconstruction. Original Spring 2026 evidence and later showcase work are identified separately so the project chronology remains clear.
+This repository documents the Webza x Zuxell Technologies project and includes a later sanitized public reconstruction. Original Spring 2026 evidence and later reconstruction work are identified separately so the project chronology remains clear.
 
 ## Original Spring 2026 project
 
@@ -26,9 +26,9 @@ The retained client requirements note listed Home, About Us, Expertise, Services
 
 The crop removes browser-edge artifacts only. It does not change the website content shown in the capture.
 
-No untouched Spring screenshot of the original Zuxell site survives in the retained materials. The portfolio therefore uses dated source checkpoints as original implementation evidence instead of presenting a later reconstruction as historical media.
+No untouched Spring screenshot of the original Zuxell site survives in the retained materials. The repository therefore uses dated source checkpoints as original implementation evidence instead of presenting a later reconstruction as historical media.
 
-## Later public-showcase media
+## Later reconstruction media
 
 The following files are later reconstruction captures:
 
@@ -36,7 +36,7 @@ The following files are later reconstruction captures:
 - `docs/assets/screenshots/zuxell-services-current-mobile.png`
 - `docs/assets/screenshots/zuxell-contact-current-mobile.png`
 
-The earlier reconstruction home capture is retained because it shows the client-facing visual direction used in the earlier portfolio version. It contains a founding-year statement that the retained public record does not support consistently, so the image is not used as evidence for that claim. The current live reconstruction omits that statement.
+The earlier reconstruction home capture is retained because it shows an earlier version of the client-facing visual direction. It contains a founding-year statement that the retained public record does not support consistently, so the image is not used as evidence for that claim. The current live reconstruction omits the statement.
 
 The current reconstruction references demonstration photography hosted by Pexels and loads DM Sans and Playfair Display through Google Fonts. Image URLs are listed directly in `index.html`.
 
@@ -53,4 +53,4 @@ The diagrams in `docs/diagrams/` were created later to explain the retained Spri
 
 ## Public repository history
 
-This public showcase repository was created later, so its Git history begins after much of the original team work. Earlier development evidence, contribution boundaries, and claim limits are documented in `docs/DEVELOPMENT_HISTORY.md`.
+This public repository was created later, so its Git history begins after much of the original team work. Earlier development evidence, contribution boundaries, and claim limits are documented in `docs/DEVELOPMENT_HISTORY.md`.
