@@ -2,7 +2,7 @@
 
 This page exposes a small sanitized view of the original collaborative Spring 2026 Zuxell implementation. The full development source remains private because it contains client material and early placeholder claims that should not be republished as verified company information.
 
-The evidence below demonstrates implementation structure and revision. It is not an individual-authorship claim.
+The evidence below records implementation structure and revision. It is not an individual-authorship claim.
 
 ## Retained checkpoints
 
@@ -87,17 +87,17 @@ The retained journal and presentation materials preserve three main post-break f
 | Maintain media cleanly | Reorganize the logo into an `assets/` path | Client-facing assets gained a clearer place in the project structure |
 | Continue development while Webza was also moving | Separate concerns instead of expanding the single file further | Cleaner boundaries reduced the amount of unrelated code touched during iteration |
 
-This was still a browser-fundamentals project rather than a framework-heavy application. The engineering value is in the revision process, the separation of responsibilities, and the judgment used while the client product was changing, not in pretending that multiple files are inherently advanced.
+This was still a browser-fundamentals project rather than a framework-heavy application. The technical value lies in the revision process, separation of responsibilities, and judgment used while the client product was changing, not in treating multiple files as inherently advanced.
 
 ## Interaction judgment became part of the engineering
 
-The Spring version experimented with entrance effects, animated counters, rotating text, card tilt, parallax movement, scroll progress, and other motion. Implementing those effects demonstrated technical capability, but client work introduced a second question: **does this interaction improve the experience enough to justify itself?**
+The Spring version experimented with entrance effects, animated counters, rotating text, card tilt, parallax movement, scroll progress, and other motion. Implementing those effects expanded the interaction layer, but client work introduced a second question: **does this interaction improve the experience enough to justify itself?**
 
-That distinction became one of the most useful technical lessons from the project. A richer effect can increase code and visual activity while still reducing clarity, comfort, or credibility. Later showcase work therefore removes or simplifies several Spring motion experiments rather than preserving every effect as though more animation automatically meant better engineering.
+That distinction became one of the most useful technical lessons from the project. A richer effect can increase code and visual activity while still reducing clarity, comfort, or credibility. The later reconstruction therefore removes or simplifies several Spring motion experiments rather than preserving every effect as though more animation automatically meant better engineering.
 
 ## Why the revision matters
 
-The strongest evidence is not simply that three files replaced one. The revision happened while the team was responding to feedback about clarity, visual polish, and the landing-page experience.
+The important change was not simply that three files replaced one. The revision happened while the team was responding to feedback about clarity, visual polish, and the landing-page experience.
 
 Separating structure, styling, behavior, and assets made continued refinement easier to reason about while the product itself was still changing. That is the practical engineering story supported by the retained checkpoints.
 
