@@ -1,6 +1,6 @@
 # Spring 2026 Development History
 
-This page preserves the evidence trail for the original Webza x Zuxell Technologies project. It focuses on what happened during Spring 2026. Later public-showcase work is documented separately in [`PUBLIC_SHOWCASE.md`](PUBLIC_SHOWCASE.md).
+This page preserves the evidence trail for the original Webza x Zuxell Technologies project. It focuses on what happened during Spring 2026. The later public reconstruction is documented separately in [`PUBLIC_SHOWCASE.md`](PUBLIC_SHOWCASE.md).
 
 <p align="center">
   <img src="diagrams/project-story.svg" alt="Development timeline from late February through the April 9 final pitch" width="100%">
@@ -65,7 +65,7 @@ The surviving notes support three main revision themes:
 
 At the same time, the team continued building Webza's separate agency website.
 
-The record does not preserve a final client quotation, so the public portfolio describes the feedback themes and resulting changes without inventing a testimonial.
+The record does not preserve a final client quotation, so the public documentation describes the feedback themes and resulting changes without inventing a testimonial.
 
 ## 5. Source-backed technical revision
 
@@ -160,10 +160,10 @@ Some details were never tracked closely enough to support a reliable number or q
 - traffic, conversion, revenue, retention, sales, or measured business-growth results;
 - a precise module-by-module breakdown of exactly what each teammate authored.
 
-Rather than guess at those details later, the public portfolio focuses on the parts of the project that are directly supported.
+Rather than guess at those details later, the public documentation focuses on the parts of the project that are directly supported.
 
 ## Why this history matters
 
-The strongest part of the project is the process behind it: choosing to pursue a real client, working from somebody else's requirements, learning enough about an unfamiliar technical business to design for it, building two products for two audiences, revising the first client version, coordinating a team under changing availability, and explaining the result as both software and a service.
+The project history centers on a sequence of concrete constraints and decisions: pursuing a real client, working from somebody else's requirements, learning enough about an unfamiliar technical business to design for it, building two products for two audiences, revising the first client version, coordinating a team under changing availability, and explaining the result as both software and a service.
 
-Later portfolio cleanup is intentionally documented elsewhere so it does not blur what happened during the original Spring project.
+The later public reconstruction is documented separately so it does not blur what happened during the original Spring project.
